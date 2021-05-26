@@ -107,3 +107,37 @@ body {
   border-radius: 5px;
   margin-left: 10px;
 }
+
+.section {
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.card {
+  text-decoration: none;
+  color: #111238;
+  background: #f2f3f6;
+  border-radius: 10px;
+  padding: 35px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.card:hover {
+  background: #1a75e8;
+  color: #fff;
+}
+
+.card:hover .card-icon {
+  fill: #FFF;
+}
+
+.card-icon {
+  fill: #111238;
+  margin-bottom: 15px;
+  transition: fill 0.2s,
+}
